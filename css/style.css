@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    width: 80%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid blue;
+  }
+  
+  .header_footer {
+    grid-column: 1/-1;
+    /* height: auto; */
+    /* width: auto; */
+    /* margin: 10px auto; */
+    /* padding: 10px; */
+    border: 2px solid blue;
+  }
+  
+  #content {
+    width: 100%;
+    /* height: auto; */
+    /* margin: inherit; */
+    /* padding: 10px; */
+    /* border: 2px solid green; */
+  }
+  
+  #cards-container {
+    /* width: 100%; */
+    /* height: auto; */
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding:20px;
+    /* border: 2px solid grey; */
+  }
+  
+  .card {
+    /* width: 218px; */
+    /* height: auto; */
+    /* margin: 9px; */
+    border: 2px solid blue;
+  }
+  
+  .card-img {
+    /* width: inherit; */
+    /* height: 218px; */
+    /* margin: auto; */
+    border-bottom: 2px solid blue;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-content {
+    /* width: 90%; */
+    /* margin: 10px auto; */
+  }
+  
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: inherit; */
+    /* margin-left: 15px; */
+  }
+  
+  ul {
+    margin: auto;
+  }
+  
+  li {
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+    /* margin: auto 10px; */
+  }
+  
+  h1 {
+    margin: auto;
+    text-align: center;
+  }
+  
+  p {
+      padding: 10px;
+    /* margin: auto; */
+    /* text-align: left; */
+    /* width: inherit; */
+    /* text-align: start; */
+    /* text-overflow: ellipsis; */
+    word-wrap: break-word;
+  }
+  
+  a {
+    text-decoration-line: none;
+  }
